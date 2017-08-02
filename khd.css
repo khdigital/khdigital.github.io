@@ -1,5 +1,5 @@
 body{
-    background-color: #23262E;
+    background-color: #05091A;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -28,6 +28,7 @@ body{
     z-index: 1;
     position: relative;
     border-bottom: 3px solid lightgrey;
+    box-shadow: 2em 0 2em 2em black;
 }
 
 #title {
@@ -40,9 +41,9 @@ body{
 }
 
 #about-page{
-    height: 150em;
+    height: 130em;
     width: 100%;
-    background-color: #2A2F3E;
+    background-color: #160E28;
     z-index: 1;
     position: relative;
     border-bottom: 2px solid lightgrey;
@@ -57,12 +58,14 @@ body{
 #portfolio-page{
     height: 40em;
     width: 100%;
-    background-color: #2A2F3E;
+    background-color: #0A1F25;
     z-index: 1;
     position: relative;
     border-bottom: 2px solid lightgrey;
     border-top: 2px solid lightgrey;
-    margin-top: 5em;
+    margin-top: 14em;
+    box-shadow: 2em 0 2em 2em black;
+
 }
 
 #portfolio-title{
@@ -122,7 +125,11 @@ form > input {
     
     .form-container{
     max-width: 300px;
-    }   
+    }
+    
+    #about-page{
+        height: 180em;
+    }
 }
 
 @keyframes fade-out{
@@ -156,4 +163,17 @@ form > input {
     opacity: 100;
     animation-name: fade-out;
     animation-duration: 4s;
+}
+
+#gd-icon, #is-icon, #rd-icon{
+    max-height: 17em;
+    display: block;
+    margin: auto;
+}
+
+#responsive-design-seg, #graphic-design-seg, #image-sourcing-seg{
+    margin-top: 5em;
+    background-color: #05091A;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
 }
