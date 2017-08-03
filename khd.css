@@ -165,10 +165,10 @@ form > input {
     animation-duration: 4s;
 }
 
-#gd-icon, #is-icon, #rd-icon{
+#is-icon,#gd-icon, #rd-icon{
     max-height: 17em;
     display: block;
-    margin: auto;
+    margin: auto;    
 }
 
 #responsive-design-seg, #graphic-design-seg, #image-sourcing-seg{
@@ -176,4 +176,15 @@ form > input {
     background-color: #05091A;
     border-bottom: 4px solid black;
     border-top: 4px solid black;
+}
+
+#modal-container{
+    z-index: 99;
+}
+
+.modal-image{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
 }

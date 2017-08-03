@@ -10,3 +10,10 @@ $(document).on('click', 'a', function(event){
     }, 500);   
     }
 });
+
+$(function() {
+    	$('.port-pic').on('click', function() {
+			$('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+			$('#enlargeImageModal').modal('show');
+		});
+});
